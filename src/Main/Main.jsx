@@ -20,7 +20,7 @@ const Main = () => {
   useEffect(() => {
     getData()
   }, []);
-
+  console.log('FIND_ME');
   if (isLoading && movies.length > 0) {
     return (
       <div>
